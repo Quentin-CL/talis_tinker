@@ -74,6 +74,7 @@ table {
   justify-content: center;
   align-items: center;
   font-family: "roboto-bold";
+  transition: 0.3s ease-in-out;
 }
 
 p {
@@ -102,6 +103,12 @@ p {
 .header-section .btn {
   color: black;
 }
+.header-section .btn:hover {
+  background-color: #f6c45c;
+  color: white;
+  border: solid 2px white;
+}
+
 .bg {
   display: flex;
   justify-content: center;
@@ -160,6 +167,13 @@ p {
 .btn-logos {
   width: 250px;
   background-color: #3dc1cd;
+  border: 2px solid #3dc1cd;
+}
+
+.btn-logos:hover {
+  background-color: white;
+  color: black;
+  border: solid 2px black;
 }
 
 .btn-logo a {
@@ -200,6 +214,9 @@ p {
 .nav p span {
   color: gold;
   font-size: 2rem;
+}
+.nav a:hover {
+  color: #3dc1cd;
 }
 
 @media screen and (max-width: 1430px) {

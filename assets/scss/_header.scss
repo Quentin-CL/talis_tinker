@@ -23,7 +23,11 @@
     .btn{
         color: black;
     }
-    h1 :nth-child(2){}
+    .btn:hover{
+        background-color: $secondcolor;
+        color: white;
+        border: solid 2px white;
+    }
 }
 
 .bg{
