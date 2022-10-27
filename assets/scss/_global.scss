@@ -10,18 +10,6 @@
     font-family: "roboto";
     src: url("../font/Roboto-Regular.ttf");
 }
-@font-face {
-    font-family: "roboto-black";
-    src: url("../font/Roboto-Black.ttf");
-}
-@font-face {
-    font-family: "roboto-bold";
-    src: url("../font/Roboto-Bold.ttf");
-}
-@font-face {
-    font-family: "roboto";
-    src: url("../font/Roboto-Regular.ttf");
-}
 
 @include reset-css;
 
@@ -35,4 +23,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "roboto-bold"
+}
+
+p{
+    line-height: 25px;
+    font-family: "roboto";
 }

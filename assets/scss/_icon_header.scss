@@ -1,0 +1,55 @@
+.flex-icons{
+    background-image: url(../images/about-bg.jpg);
+    background-position: center;
+    background-size: 100% 80%;
+    height: 80vh;
+    @include flex(center,center,row);
+    gap: 50px;
+
+    h3{
+        color: white;
+        font-family: "roboto-bold";
+    }
+
+    p{
+        color: white;
+    }
+
+}
+
+.alerts{
+    @include flex (space-around,center,column);
+    gap: 30px;
+    text-align: center;
+
+
+    .gray{
+        border: 1px solid gray;
+        width: 300px;
+    }
+}
+
+.btn-logos{
+    width: 250px;
+    background-color: $firstcolor;
+    
+}
+
+.btn-logo a{
+    color: white;
+    letter-spacing: 2px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: $secondcolor;
+    border: 3px solid white;
+    
+    i{
+        color: white;
+        padding-top: 18px;
+    }
+   
+}
