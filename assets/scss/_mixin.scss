@@ -55,7 +55,7 @@
 }
 
 @mixin bg($pos: cover){
-	background-postion: center;
+	background-position: center;
 	background-size: $pos;
 	background-repeat: no-repeat;
 }

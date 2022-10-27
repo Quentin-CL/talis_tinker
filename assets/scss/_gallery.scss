@@ -1,0 +1,47 @@
+#gallery{
+    display: grid;
+    grid-template: fit-content(10px) / 35% 65%;
+    div:first-child{
+        background-color: $firstcolor;
+        @include flex($align:baseline,$dir:column);
+        text-align: start;
+        padding-right: 1rem;
+        >*{
+             margin: 0 0 0 20%;
+            max-width: 300px;
+        }
+        p{
+            margin-bottom: 4rem;
+        }
+    }
+    div:last-child{
+        padding: 2rem;
+        display: grid;
+        grid-template: repeat(3, 1fr)/ 1fr 1fr ;
+        justify-self: flex-start;
+    }
+    img{
+        max-width: 350px;
+    }
+    p:before{
+        content: "";
+        display: block;
+        height: 1px;
+        max-width: 300px;
+        background: #dbdbdb;
+        margin: 1rem 0;
+    }
+    a{
+        font-weight: 700;
+        color: white;
+        text-transform: capitalize;
+    }
+    li{
+        padding-bottom: 1rem;
+        width: max-content;
+    }
+    .active a{
+        color: $secondcolor;
+    }
+}
+
