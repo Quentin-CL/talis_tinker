@@ -1,0 +1,19 @@
+.nav{
+    @include flex(space-around);
+    font-family: "roboto-regular";
+
+    ul{
+        @include flex;
+        gap: 30px;
+    }
+    
+    p{
+        font-weight: bolder;
+        font-family: "roboto-black";
+    }
+
+     p span{
+        color: gold;
+        font-size: 2rem;
+    }
+}
