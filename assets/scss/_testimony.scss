@@ -1,0 +1,30 @@
+#testimony{
+    background-color: $secondcolor;
+    padding: 6rem 0;
+    p:first-child{
+        display: block;
+        background-color: white;
+        margin: 0 auto 2rem;
+        max-width: 600px;
+        padding: 2rem;
+        border-radius: 7px;
+        color: #aaa;
+        font-style: italic;
+    }
+}
+.testimony-author{
+    font-family: 'roboto-bold';
+    font-size: 20px;
+}
+.dots{
+    margin-top: 1.5rem;
+    @include flex;
+    gap: 10px;
+    font-size: 10px;
+    i{
+        color: rgba(255,255,255,0.4);
+    }
+    i:last-child{
+        color: white;
+    }
+}
