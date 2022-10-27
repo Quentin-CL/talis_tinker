@@ -1,0 +1,56 @@
+.header-section{
+    background-image: url(../images/banner_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+   
+    h3{
+        color: white;
+    }
+
+    h1{
+        color: white;
+    }
+
+    a{
+        color: white;
+    }
+
+    p{
+        color: white;
+    }
+
+    .btn{
+        color: black;
+    }
+    .btn:hover{
+        background-color: $secondcolor;
+        color: white;
+        border: solid 2px white;
+    }
+}
+
+.bg{
+    @include flex(center,center,column);
+    gap: 20px;
+    padding-top: 250px;
+    
+
+    .ht{
+        color: lightskyblue;
+    }
+
+    .tin{
+        color: orange;
+    }
+
+    h1{
+        font-size: 2rem;
+        font-family: "roboto-bold"
+    }
+
+}
+
+.p-header p{
+    text-align: center;
+}

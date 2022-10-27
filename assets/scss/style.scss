@@ -1,7 +1,13 @@
 @import "vars";
 @import "mixin";
 @import "global";
+
+@import "header";
+@import "icon_header";
+@import "nav";
+
 @import "gallery";
 @import "testimony";
 @import "blog";
+
 @import "mediaqueries";

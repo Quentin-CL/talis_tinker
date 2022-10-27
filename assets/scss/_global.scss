@@ -9,8 +9,25 @@
 @font-face {
     font-family: "roboto";
     src: url("../font/Roboto-Regular.ttf");
-};
+}
 @include reset-css;
+.btn{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto-bold";
+    transition: 0.3s ease-in-out;
+}
+p{
+    line-height: 25px;
+    font-family: "roboto";
+}
 body{
     font-family: "roboto";
     text-align: center;
@@ -22,6 +39,5 @@ h2{
     font-family: "roboto-black";
 }
 p{
-    line-height: 25px;
 	color: white;
 }
