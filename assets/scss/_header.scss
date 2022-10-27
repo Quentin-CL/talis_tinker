@@ -1,0 +1,27 @@
+.header-section{
+    background-image: url(../images/banner_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+   
+    h3{
+        color: white;
+    }
+
+    h1{
+        color: white;
+    }
+
+    a{
+        color: white;
+    }
+
+    p{
+        color: white;
+    }
+
+    .btn{
+        color: black;
+    }
+    h1 :nth-child(2){}
+}
